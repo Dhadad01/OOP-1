@@ -1,0 +1,23 @@
+david.hadad
+314618448
+
+Player Approaches:
+a. clever Approach:
+- Aims to populate the initial column from top to bottom.
+- In case all cells are occupied
+- the approach shifts to selecting a random available cell on the board.
+
+b. genius Approach:
+- The primary objective of this approach is to 
+  obstruct the IngeniousPlayer by initiating from the second row.
+- Chooses a cell in each column, effectively disrupting the attempts 
+  of the IngeniousPlayer to fill the first column.
+- If all cells are filled, the approach resorts to choosing a random available cell on the board.
+
+Benefits:
+- Abstraction: The structure facilitates the seamless inclusion of 
+  different players in the future without altering the existing classes.
+- Information Concealment: The implementation conceals the specifics of 
+  each player's approach, ensuring a neat and modular design.
+- Polymorphism: The strategy pattern allows for the interchangeable use of 
+  different player approaches,fostering code flexibility and maintainability.
